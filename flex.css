@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Charis SIL', serif;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Charis SIL', serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-weight: 400;
+    margin: 0;
+}
+main{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+}
+.flex-container{
+    display: flex;
+}
+.flex-container .sedans{
+    background-color:hsl(31, 77%, 52%);
+    padding: 2em;
+    font-size: 15px;
+    flex: 33.3%;
+    
+}
+.flex-container .sedans button {
+    border-radius: 12px;
+    border: 2px solid white;
+    background-color: hsl(0, 0%, 95%);
+}
+.flex-container .suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    font-size: 15px;
+    flex: 33.3%;
+}
+.flex-container .suvs button {
+    border-radius: 12px;
+    border: 2px solid white;
+    background-color: hsl(0, 0%, 95%);
+}
+.flex-container .luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    font-size: 15px;
+    flex: 33.3%;
+}
+.flex-container .luxury button {
+    border-radius: 18px;
+    border: 2px solid white;
+    background-color:hsl(0, 0%, 95%) ;
+}
