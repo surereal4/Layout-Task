@@ -12,8 +12,6 @@ body{
     font-family: 'Lexend Deca', sans-serif;
     font-family: 'Nanum Gothic Coding', monospace;
     font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-    font-weight: 400;
     margin: 0;
 }
 main{
@@ -35,21 +33,35 @@ main{
     flex: 33.3%;
     
 }
-.flex-container .sedans button {
+.flex-container .sedans div button {
     border-radius: 12px;
     border: 2px solid white;
     background-color: hsl(0, 0%, 95%);
 }
+
 .flex-container .suvs{
     background-color: hsl(184, 100%, 22%);
     padding: 2em;
     font-size: 15px;
     flex: 33.3%;
+    height: 33.3%;
 }
-.flex-container .suvs button {
-    border-radius: 12px;
+.flex-container .suvs div button {
+    border-radius: 18px;
     border: 2px solid white;
     background-color: hsl(0, 0%, 95%);
+}
+.flex-container .suvs a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+    border: 2px solid hsl(31, 77%, 52%);
+    border-radius: 6px;
+    margin: auto;
+}
+.flex-container .suvs a:hover{
+    background: hsl(184, 100%, 22%);
+    color: hsl(185, 26%, 92%);
 }
 .flex-container .luxury{
     background-color: hsl(179, 100%, 13%);
@@ -57,7 +69,7 @@ main{
     font-size: 15px;
     flex: 33.3%;
 }
-.flex-container .luxury button {
+.flex-container .luxury div button {
     border-radius: 18px;
     border: 2px solid white;
     background-color:hsl(0, 0%, 95%) ;
